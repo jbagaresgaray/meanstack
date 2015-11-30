@@ -1,0 +1,56 @@
+{
+  "name": "meanstack",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbagaresgaray/meanstack.git"
+  },
+  "author": "Philip Cesar B. Garay",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.3.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.13.1",
+    "bunyan": "^1.4.0",
+    "connect-ensure-login": "^0.1.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.3.5",
+    "debug": "^2.2.0",
+    "ejs": "^2.3.2",
+    "express": "^4.13.0",
+    "express-jwt": "^3.0.1",
+    "express-session": "^1.11.3",
+    "express-validator": "^2.13.0",
+    "fs-extra": "^0.26.2",
+    "jsonwebtoken": "^5.0.2",
+    "lodash-node": "^3.10.1",
+    "method-override": "^2.3.3",
+    "moment": "^2.10.3",
+    "mongoose": "^4.0.6",
+    "morgan": "^1.6.0",
+    "multer": "^0.1.8",
+    "node-cryptojs-aes": "^0.4.0",
+    "passport": "^0.2.2",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "chai-http": "^1.0.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-mongo-backup": "0.0.2",
+    "load-grunt-tasks": "^3.3.0",
+    "time-grunt": "^1.2.1",
+    "jshint-stylish": "^2.0.1"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "meanstack",
+  "main": "index.js",
+  "version": "0.0.0",
+  "keywords": [],
+  "authors": "Philip Cesar B. Garay",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.1",
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.3.0",
+    "angular-bootstrap": "~0.13.0",
+    "angular-sanitize": "~1.4.1",
+    "angular-resource": "~1.4.1",
+    "angular-cookies": "~1.4.1",
+    "angular-ui-select": "~0.12.0",
+    "ng-file-upload": "~5.0.9",
+    "ng-file-upload-shim": "~5.0.9",
+    "angular-loading-bar": "~0.8.0",
+    "angular-breadcrumb": "~0.4.0",
+    "angular-toastr": "~1.4.1",
+    "angular-ui-router": "~0.2.15",
+    "angular-jquery-timepicker": "~0.6.0",
+    "angular-notify": "~2.5.0",
+    "angular-busy": "~4.1.3",
+    "angular-validation": "~1.3.1",
+    "ngDialog": "~0.4.0",
+    "ng-table": "~0.7.1",
+    "lodash": "~3.10.1",
+    "angular-nvd3": "~1.0.4"
+  },
+  "resolutions": {
+    "angular": "~1.4.1"
+  }
+}
