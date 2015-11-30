@@ -33,7 +33,7 @@ require(application.config + 'passport')(passport, jwt, config);
 
 // Pre populate data
 /* Enable to populate the User Schema for the 1st time*/
-require(application.data + 'users')(mongoose);
+// require(application.data + 'users')(mongoose);
 
 require(application.routes + 'routes')(app, passport, config, middleware);
 require(application.routes + '/')(app,passport);
